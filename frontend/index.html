@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InstaLite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <h2>InstaLite</h2>
+  <span>❤️</span>
+</div>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+  <h3>Aarav Mehta</h3>
+  <p>🏠 Home</p>
+  <p>🔍 Explore</p>
+  <p>➕ Create</p>
+  <p>👤 Profile</p>
+  <p>⚙️ Settings</p>
+</div>
+<!-- RIGHT SIDEBAR -->
+<!-- RIGHT SIDEBAR -->
+<div class="rightbar">
+
+  <div class="card">
+    <h4>Suggestions for you</h4><br>
+
+    <div class="suggestion">
+      <img src="images/kiara_kapoor.webp">
+      <span>Kiara Kapoor</span>
+    </div>
+
+    <div class="suggestion">
+      <img src="images/aditi_mishra.webp">
+      <span>Aditi Mishra</span>
+    </div>
+
+    <div class="suggestion">
+      <img src="images/simran_kaur.webp">
+      <span>Simran Kaur</span>
+    </div>
+
+    <div class="suggestion">
+      <img src="images/varad_deshmukh.webp">
+      <span>Varad Deshmukh</span>
+    </div>
+
+    <div class="suggestion">
+      <img src="images/shourya_1256.webp">
+      <span>Shourya</span>
+    </div>
+
+    <div class="suggestion">
+      <img src="images/aditya_jain.webp">
+      <span>Aditya Jain</span>
+    </div>
+
+    <div class="suggestion">
+      <img src="images/rohan_gupta.webp">
+      <span>Rohan Gupta</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h4>Trending</h4><br>
+    <p>#travel</p>
+    <p>#mountains</p>
+    <p>#foodie</p>
+    <p>#concert</p>
+    <p>#festival</p>
+  </div>
+
+</div>
+
+
+
+<!-- FEED -->
+<div class="container">
+
+  <!-- STORIES -->
+  <div class="stories">
+    <div class="story">
+      <img src="images/holi.webp">
+      <p>Ananya</p>
+    </div>
+    <div class="story">
+      <img src="images/grp_of_friends.webp">
+      <p>Sarthak</p>
+    </div>
+    <div class="story">
+      <img src="images/man_atbeach.webp">
+      <p>Aarav</p>
+    </div>
+  </div>
+
+  <!-- POST 0 : HOLI (TOP) -->
+  <div class="post">
+    <div class="post-header">Ananya Desai</div>
+    <img src="images/holi.webp">
+    <div class="post-actions">
+      <button onclick="like(0)">❤️ <span id="like0">88</span></button>
+    </div>
+    <div class="post-caption"><b>Ananya Desai</b> colors, smiles, and happiness 🌈</div>
+    <div class="comments" id="comments0"></div>
+    <div class="comment-box">
+      <input id="comment0" placeholder="Add a comment...">
+      <button onclick="addComment(0)">Post</button>
+    </div>
+  </div>
+
+  <!-- POST 1 -->
+  <div class="post">
+    <div class="post-header">Riya Sharma</div>
+    <img src="images/nature_mountain.webp">
+    <div class="post-actions">
+      <button onclick="like(1)">❤️ <span id="like1">41</span></button>
+    </div>
+    <div class="post-caption"><b>Riya Sharma</b> mountains always feel like home 🏔️</div>
+    <div class="comments" id="comments1"></div>
+    <div class="comment-box">
+      <input id="comment1" placeholder="Add a comment...">
+      <button onclick="addComment(1)">Post</button>
+    </div>
+  </div>
+
+  <!-- POST 2 -->
+  <div class="post">
+    <div class="post-header">Kunal Verma</div>
+    <img src="images/new_car.webp">
+    <div class="post-actions">
+      <button onclick="like(2)">❤️ <span id="like2">57</span></button>
+    </div>
+    <div class="post-caption"><b>Kunal Verma</b> finally got my dream car 🚗✨</div>
+    <div class="comments" id="comments2"></div>
+    <div class="comment-box">
+      <input id="comment2" placeholder="Add a comment...">
+      <button onclick="addComment(2)">Post</button>
+    </div>
+  </div>
+
+  <!-- POST 3 -->
+  <div class="post">
+    <div class="post-header">Neha Patel</div>
+    <img src="images/breaking_news.webp">
+    <div class="post-actions">
+      <button onclick="like(3)">❤️ <span id="like3">12</span></button>
+    </div>
+    <div class="post-caption"><b>Neha Patel</b> staying updated is important 📰</div>
+    <div class="comments" id="comments3"></div>
+    <div class="comment-box">
+      <input id="comment3" placeholder="Add a comment...">
+      <button onclick="addComment(3)">Post</button>
+    </div>
+  </div>
+
+  <!-- POST 4 -->
+  <div class="post">
+    <div class="post-header">Rohit Malhotra</div>
+    <img src="images/concert.webp">
+    <div class="post-actions">
+      <button onclick="like(4)">❤️ <span id="like4">68</span></button>
+    </div>
+    <div class="post-caption"><b>Rohit Malhotra</b> live music, loud nights 🎶</div>
+    <div class="comments" id="comments4"></div>
+    <div class="comment-box">
+      <input id="comment4" placeholder="Add a comment...">
+      <button onclick="addComment(4)">Post</button>
+    </div>
+  </div>
+
+  <!-- POST 5 -->
+  <div class="post">
+    <div class="post-header">Aman Singh</div>
+    <img src="images/construction_site.webp">
+    <div class="post-actions">
+      <button onclick="like(5)">❤️ <span id="like5">9</span></button>
+    </div>
+    <div class="post-caption"><b>Aman Singh</b> progress never stops 🏗️</div>
+    <div class="comments" id="comments5"></div>
+    <div class="comment-box">
+      <input id="comment5" placeholder="Add a comment...">
+      <button onclick="addComment(5)">Post</button>
+    </div>
+  </div>
+
+  <!-- POST 6 -->
+  <div class="post">
+    <div class="post-header">Pooja Kulkarni</div>
+    <img src="images/food.webp">
+    <div class="post-actions">
+      <button onclick="like(6)">❤️ <span id="like6">73</span></button>
+    </div>
+    <div class="post-caption"><b>Pooja Kulkarni</b> comfort food kind of day 🍲</div>
+    <div class="comments" id="comments6"></div>
+    <div class="comment-box">
+      <input id="comment6" placeholder="Add a comment...">
+      <button onclick="addComment(6)">Post</button>
+    </div>
+  </div>
+
+  <!-- POST 7 -->
+  <div class="post">
+    <div class="post-header">Sarthak Joshi</div>
+    <img src="images/grp_of_friends.webp">
+    <div class="post-actions">
+      <button onclick="like(7)">❤️ <span id="like7">59</span></button>
+    </div>
+    <div class="post-caption"><b>Sarthak Joshi</b> memories with the right people 👯</div>
+    <div class="comments" id="comments7"></div>
+    <div class="comment-box">
+      <input id="comment7" placeholder="Add a comment...">
+      <button onclick="addComment(7)">Post</button>
+    </div>
+  </div>
+
+  <!-- POST 8 : MAN AT BEACH (LAST) -->
+  <div class="post">
+    <div class="post-header">Aarav Mehta</div>
+    <img src="images/man_atbeach.webp" class="fit-image">
+    <div class="post-actions">
+      <button onclick="like(8)">❤️ <span id="like8">24</span></button>
+    </div>
+    <div class="post-caption"><b>Aarav Mehta</b> taking a break by the sea 🌊</div>
+    <div class="comments" id="comments8"></div>
+    <div class="comment-box">
+      <input id="comment8" placeholder="Add a comment...">
+      <button onclick="addComment(8)">Post</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
