@@ -8,7 +8,7 @@ Task 2 – Social Media Platform
 
 ## 🌐 Live Demo
 
-**[Click here to open the live website](https://code-alpha-tasks-vert.vercel.app/)**
+**[Open PulseAlpha Social Media Platform](https://code-alpha-tasks-vert.vercel.app/)**
 
 ## 📖 About the Project
 
