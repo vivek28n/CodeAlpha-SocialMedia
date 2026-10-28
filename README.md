@@ -8,7 +8,7 @@ Task 2 – Social Media Platform
 
 ## 🌐 Live Demo
 
-**[Open PulseAlpha Social Media Platform](https://code-alpha-tasks-vert.vercel.app/)**
+**[Open PulseAlpha Social Media Platform](https://vibe-social-app.onrender.com/)**
 
 ## 📖 About the Project
 
