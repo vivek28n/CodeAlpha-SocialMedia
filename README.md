@@ -1,4 +1,4 @@
-Task 2 – Social Media Platform
+Social Media Platform
 
 # 📱 PulseAlpha — Full Stack Social Media Platform
 
@@ -10,7 +10,7 @@ Task 2 – Social Media Platform
 
 **[Open PulseAlpha Social Media Platform](https://vibe-social-app.onrender.com/)**
 
-## 📖 About the Project
+## 📖 About the Project 
 
 PulseAlpha is a responsive full-stack social media application designed to provide an interactive platform for sharing posts, connecting with users, and engaging with a dynamic social feed.
 
@@ -30,7 +30,7 @@ PulseAlpha is a responsive full-stack social media application designed to provi
 - **Frontend:** HTML5, CSS3, JavaScript (ES6+)
 - **Development Tools:** npm, Git, GitHub
 
-## 🚀 Run Locally
+## 🚀 Run Locally 
 
 Make sure Node.js and npm are installed.
 
